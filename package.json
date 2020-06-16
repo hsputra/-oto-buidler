@@ -1,12 +1,12 @@
 {
-  "name": "@aragon/buidler-aragon",
+  "name": "@oto/buidler",
   "version": "0.2.8",
-  "description": "Aragon Buidler plugin",
+  "description": "Oto Buidler plugin",
   "main": "dist/src/index.js",
-  "author": "Aragon Association <legal@aragon.org>",
-  "license": "GPL-3.0-or-later",
+  "author": "",
+  "license": "",
   "keywords": [
-    "aragon",
+    "oto",
     "buidler",
     "plugin",
     "ethereum"
@@ -22,7 +22,7 @@
     "src"
   ],
   "scripts": {
-    "generate": "typechain --target truffle --outDir typechain './node_modules/@aragon/abis/os/artifacts/*.json'",
+    "generate": "typechain --target truffle --outDir typechain './node_modules/@oto/abis/os/artifacts/*.json'",
     "build-projects": "cd test/projects && yarn && yarn build-projects && cd ../..",
     "dev": "yarn generate && yarn build && yarn build-projects",
     "lint": "eslint 'src/**/*.{js,ts}'",
